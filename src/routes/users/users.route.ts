@@ -11,6 +11,7 @@ class UserRoutes {
   }
   private initilaizedRoutes(): void {
     this.router.get("/", this.userController.getAll);
+    this.router.post("/create-user", this.userController.create);
   }
 }
 export default UserRoutes;
