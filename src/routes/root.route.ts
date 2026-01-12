@@ -1,10 +1,11 @@
 import { Router } from "express";
-import { productsRoute } from "./products/products.route";
-import { usersRoute } from "./users/users.route";
+import UserRoutes from "./users/users.route";
+// import ProductsRoutes if you have it similarly
 
-const rootRoute = Router({ mergeParams: true }); // merge child's and parent's params
+const rootRoute = Router({ mergeParams: true });
 
-rootRoute.use("/products", productsRoute);
-rootRoute.use("/users", usersRoute);
+// Instantiate the class and use its router
+const userRoutes = new UserRoutes();
+rootRoute.use("/users", userRoutes.router);
 
 export { rootRoute };
