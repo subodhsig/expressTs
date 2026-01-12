@@ -1,0 +1,13 @@
+import { defineConfig } from "drizzle-kit";
+import { config } from "./src/config/config";
+
+const dbUrl = config.dbConfig.url;
+
+export default defineConfig({
+  out: "./drizzle",
+  schema: "./src/db/schema",
+  dialect: "postgresql",
+  dbCredentials: {
+    url: dbUrl || "",
+  },
+});
