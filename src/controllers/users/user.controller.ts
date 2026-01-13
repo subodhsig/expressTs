@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import UserServices from "../../services/users/user.service";
-import { User } from "@root/src/db";
 
 class UserController {
   private userService: UserServices;

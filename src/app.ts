@@ -23,7 +23,7 @@ const API_PREFIX = !config.appConfig.API_PREFIX
 
 const app = express();
 
-app.use(morgan("tiny"));
+app.use(morgan("common"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(API_DOCS_ENDPOINT, swaggerUi.serve, swaggerUi.setup(swaggerDocs));
