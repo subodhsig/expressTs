@@ -1,6 +1,5 @@
 import { Router } from "express";
 import UserRoutes from "./users/users.route";
-// import ProductsRoutes if you have it similarly
 
 const rootRoute = Router({ mergeParams: true });
 

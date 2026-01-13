@@ -34,16 +34,23 @@ class UserServices {
     return result[0];
   }
 
-  async updateUser(userData: User, id: number): Promise<User> {
-    const existingUser = await this.getUserById(id);
+  async updateUser(userData: User, userId: number): Promise<User> {
+    const existingUser = await this.getUserById(userId);
+
     if (!existingUser) {
-      throw new Error("user not found");
+      throw new Error("User not found");
     }
+
     const [updatedUser] = await db
       .update(usersTable)
-      .set({ name: userData.name, age: userData.age, email: userData.email })
-      .where(eq(usersTable.id, userData.id))
+      .set({
+        name: userData.name,
+        age: userData.age,
+        email: userData.email,
+      })
+      .where(eq(usersTable.id, userId))
       .returning();
+
     return updatedUser;
   }
 

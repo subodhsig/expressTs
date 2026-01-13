@@ -12,6 +12,8 @@ class UserRoutes {
   private initilaizedRoutes(): void {
     this.router.get("/", this.userController.getAll);
     this.router.post("/create-user", this.userController.create);
+    this.router.delete("/delete/:userId", this.userController.delete);
+    this.router.put("/update-user/:userId", this.userController.update);
   }
 }
 export default UserRoutes;
