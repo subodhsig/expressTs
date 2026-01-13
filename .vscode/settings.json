@@ -3,7 +3,6 @@
      Enhanced Custom Theme
      ========================= */
   "workbench.colorCustomizations": {
-    /* Editor - Deep Dark Base */
     "editor.background": "#0f1117",
     "editor.foreground": "#e1e4e8",
     "editorLineNumber.foreground": "#4b5263",
@@ -19,11 +18,8 @@
     "editorIndentGuide.activeBackground": "#4b5263",
     "editorBracketMatch.background": "#2a2f3a",
     "editorBracketMatch.border": "#7dd3fc",
-
-    /* Sidebar - Rich Dark */
     "sideBar.background": "#0c0e14",
     "sideBar.foreground": "#c8ccd4",
-    "sideBar.border": "#7dd3fc20",
     "sideBarTitle.foreground": "#7dd3fc",
     "sideBarSectionHeader.background": "#0f111780",
     "sideBarSectionHeader.foreground": "#a78bfa",
@@ -33,40 +29,14 @@
     "list.inactiveSelectionBackground": "#1c1f26",
     "list.hoverBackground": "#1c1f2690",
     "list.focusBackground": "#1e3a5f80",
-
-    /* Activity Bar - Accent Colors */
-    "activityBar.background": "#0c0e14",
-    "activityBar.foreground": "#7dd3fc",
-    "activityBar.inactiveForeground": "#4b5263",
     "activityBar.border": "#7dd3fc20",
-    "activityBarBadge.background": "#a78bfa",
-    "activityBarBadge.foreground": "#ffffff",
     "activityBar.activeBorder": "#7dd3fc",
-
-    /* Status Bar - Gradient-like Effect */
-    "statusBar.background": "#7dd3fc15",
-    "statusBar.foreground": "#7dd3fc",
-    "statusBar.border": "#7dd3fc30",
     "statusBar.noFolderBackground": "#a78bfa15",
-    "statusBar.debuggingBackground": "#fb7185",
-    "statusBar.debuggingForeground": "#ffffff",
     "statusBarItem.prominentBackground": "#a78bfa50",
-    "statusBarItem.remoteBackground": "#10b981",
-    "statusBarItem.remoteForeground": "#ffffff",
-
-    /* Title Bar - Sleek */
-    "titleBar.activeBackground": "#0c0e14",
-    "titleBar.activeForeground": "#7dd3fc",
-    "titleBar.inactiveBackground": "#0c0e14",
-    "titleBar.inactiveForeground": "#4b5263",
-    "titleBar.border": "#7dd3fc20",
-
-    /* Tabs - Color-coded */
     "tab.activeBackground": "#0f1117",
     "tab.inactiveBackground": "#0c0e14",
     "tab.activeForeground": "#7dd3fc",
     "tab.inactiveForeground": "#6b7280",
-    "tab.activeBorder": "#7dd3fc",
     "tab.activeBorderTop": "#a78bfa",
     "tab.border": "#1e222d",
     "tab.hoverBackground": "#1c1f26",
@@ -74,8 +44,6 @@
     "tab.unfocusedInactiveForeground": "#4b5263",
     "editorGroupHeader.tabsBackground": "#0c0e14",
     "editorGroupHeader.tabsBorder": "#7dd3fc15",
-
-    /* Terminal - Enhanced */
     "terminal.background": "#0f1117",
     "terminal.foreground": "#e1e4e8",
     "terminal.border": "#7dd3fc20",
@@ -95,15 +63,10 @@
     "terminal.ansiBrightMagenta": "#c4b5fd",
     "terminal.ansiBrightCyan": "#a5f3fc",
     "terminal.ansiBrightWhite": "#f9fafb",
-
-    /* Panel - Bottom Panel */
     "panel.background": "#0c0e14",
-    "panel.border": "#7dd3fc20",
     "panelTitle.activeBorder": "#7dd3fc",
     "panelTitle.activeForeground": "#7dd3fc",
     "panelTitle.inactiveForeground": "#6b7280",
-
-    /* Buttons & Inputs - Interactive */
     "button.background": "#7dd3fc",
     "button.foreground": "#0c0e14",
     "button.hoverBackground": "#a78bfa",
@@ -113,27 +76,19 @@
     "inputOption.activeBorder": "#7dd3fc",
     "dropdown.background": "#1c1f26",
     "dropdown.border": "#4b5263",
-
-    /* Notifications - Attention-grabbing */
     "notificationCenter.border": "#7dd3fc30",
     "notificationCenterHeader.background": "#0f1117",
     "notifications.background": "#1c1f26",
     "notifications.border": "#7dd3fc50",
     "notificationLink.foreground": "#7dd3fc",
-
-    /* Scrollbar - Subtle but Modern */
     "scrollbarSlider.background": "#7dd3fc20",
     "scrollbarSlider.hoverBackground": "#7dd3fc40",
     "scrollbarSlider.activeBackground": "#7dd3fc60",
-
-    /* Git Decorations - Clear Indicators */
     "gitDecoration.modifiedResourceForeground": "#fbbf24",
     "gitDecoration.deletedResourceForeground": "#fb7185",
     "gitDecoration.untrackedResourceForeground": "#10b981",
     "gitDecoration.ignoredResourceForeground": "#4b5263",
     "gitDecoration.conflictingResourceForeground": "#f97316",
-
-    /* Breadcrumbs - Navigation */
     "breadcrumb.background": "#0f1117",
     "breadcrumb.foreground": "#6b7280",
     "breadcrumb.focusForeground": "#7dd3fc",
